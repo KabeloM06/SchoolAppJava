@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdd5a427-46a0-49c4-840d-96114c9a2825" name="Changes" comment="Filled Student class">
+    <list default="true" id="cdd5a427-46a0-49c4-840d-96114c9a2825" name="Changes" comment="Created first InputUtil method enterInteger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/InputUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/InputUtil.java" afterDir="false" />
@@ -41,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="InputUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="util.InputUtil" />
       <module name="School App Java" />
@@ -55,8 +55,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="School App Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.InputUtil" />
       </list>
     </recent_temporary>
@@ -91,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666427525548</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created first InputUtil method enterInteger">
+      <created>1666440189268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666440189268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +130,7 @@
     <MESSAGE value="Created starter classes" />
     <MESSAGE value="Fixed Student class" />
     <MESSAGE value="Filled Student class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Filled Student class" />
+    <MESSAGE value="Created first InputUtil method enterInteger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created first InputUtil method enterInteger" />
   </component>
 </project>
