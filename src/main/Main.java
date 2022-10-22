@@ -17,10 +17,12 @@ public class Main {
 
         if(operation==1){//register student
             int count = InputUtil.enterInteger("How many students are you registering?");
-            String name = InputUtil.enterString("Enter student name:");
-            String surname = InputUtil.enterString("Enter student surname");
-            int age = InputUtil.enterInteger("Enter student age:");
-            String className = InputUtil.enterString("Enter student class:");
+            Config.students = new Student[count]; // count determines the size of the array
+            for(int i=0;i<count;i++){
+                System.out.println((i+1)+". Registration");
+                Student studentDetails = InputUtil.fill();
+                Config.students[i] = studentDetails;
+            }
         }
 
     }

@@ -1,5 +1,7 @@
 package util;
 
+import main.Student;
+
 import java.util.Scanner;
 
 public class InputUtil {
@@ -14,6 +16,15 @@ public class InputUtil {
         Scanner scanner = new Scanner(System.in);
         String answer = scanner.nextLine();
         return answer;
+    }
+
+    public static Student fill(){
+        String name = InputUtil.enterString("Enter student name:");
+        String surname = InputUtil.enterString("Enter student surname");
+        int age = InputUtil.enterInteger("Enter student age:");
+        String className = InputUtil.enterString("Enter student class:");
+        Student student = new Student(name, surname, age, className);
+        return student;
     }
 
     public static void main(String[] args) {

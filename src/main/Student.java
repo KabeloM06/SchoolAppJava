@@ -13,6 +13,13 @@ public class Student {
     public Student() {
     }
 
+    public Student(String name, String surname, int age, String className) {
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+        this.className = className;
+
+    }
     public Student(String name, String surname, int age, String className, int balance) {
         this.name = name;
         this.surname = surname;

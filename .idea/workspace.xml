@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdd5a427-46a0-49c4-840d-96114c9a2825" name="Changes" comment="Created InputUtil method enterString">
+    <list default="true" id="cdd5a427-46a0-49c4-840d-96114c9a2825" name="Changes" comment="Created procedural inputs for option 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/InputUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/InputUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666441662406</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created procedural inputs for option 1">
+      <created>1666443134845</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666443134845</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +148,7 @@
     <MESSAGE value="Filled Student class" />
     <MESSAGE value="Created first InputUtil method enterInteger" />
     <MESSAGE value="Created InputUtil method enterString" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created InputUtil method enterString" />
+    <MESSAGE value="Created procedural inputs for option 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created procedural inputs for option 1" />
   </component>
 </project>
