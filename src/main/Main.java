@@ -16,7 +16,11 @@ public class Main {
                 );
 
         if(operation==1){//register student
-            InputUtil.enterString("How many students are you registering?");
+            int count = InputUtil.enterInteger("How many students are you registering?");
+            String name = InputUtil.enterString("Enter student name:");
+            String surname = InputUtil.enterString("Enter student surname");
+            int age = InputUtil.enterInteger("Enter student age:");
+            String className = InputUtil.enterString("Enter student class:");
         }
 
     }
