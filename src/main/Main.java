@@ -25,6 +25,8 @@ public class Main {
                 MenuUtil.printAllStudents();
             } else if (operation == 3) {
                 MenuUtil.findStudent();
+            } else if (operation == 4){
+                MenuUtil.updateStudent();
             }
         }
 

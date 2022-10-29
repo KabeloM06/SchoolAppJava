@@ -37,4 +37,12 @@ public class MenuUtil {
         }
     }
 
+    public static void updateStudent(){
+        int student_place = InputUtil.enterInteger("Which student do you want to edit?");
+        System.out.println("Enter their new information");
+        Student student = InputUtil.fill();
+        Config.students[student_place -1] = student;
+        System.out.println(student.getInfo());
+    }
+
 }
