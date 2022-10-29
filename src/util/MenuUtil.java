@@ -26,4 +26,15 @@ public class MenuUtil {
         }
     }
 
+    public  static  void findStudent(){
+        String find = InputUtil.enterString("Enter the name or surname of the student you are looking for");
+
+        for (int i = 0; i < Config.students.length; i++){
+            Student student = Config.students[i];
+            if (student.getName().equalsIgnoreCase(find) || student.getSurname().equalsIgnoreCase(find)){
+                System.out.println(student.getInfo());
+            }
+        }
+    }
+
 }

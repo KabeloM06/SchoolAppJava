@@ -23,6 +23,8 @@ public class Main {
                 MenuUtil.registerStudent();
             } else if (operation == 2) {
                 MenuUtil.printAllStudents();
+            } else if (operation == 3) {
+                MenuUtil.findStudent();
             }
         }
 
