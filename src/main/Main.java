@@ -27,6 +27,12 @@ public class Main {
                 MenuUtil.findStudent();
             } else if (operation == 4){
                 MenuUtil.updateStudent();
+            } else if (operation == 5){
+                System.out.println("Quitting from operation");
+                break;
+            } else {
+                System.out.println("Invalid operation");
+                break;
             }
         }
 

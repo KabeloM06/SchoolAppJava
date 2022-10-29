@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdd5a427-46a0-49c4-840d-96114c9a2825" name="Changes" comment="Wrote method to find students">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="cdd5a427-46a0-49c4-840d-96114c9a2825" name="Changes" comment="Wrote method to update student info" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -146,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667051080967</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Wrote method to update student info">
+      <created>1667052914321</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667052914323</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +174,7 @@
     <MESSAGE value="Completed procedural inputs for option 1. With loop" />
     <MESSAGE value="Displaying registered students and refactored code into objects" />
     <MESSAGE value="Wrote method to find students" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrote method to find students" />
+    <MESSAGE value="Wrote method to update student info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote method to update student info" />
   </component>
 </project>
