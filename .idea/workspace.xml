@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdd5a427-46a0-49c4-840d-96114c9a2825" name="Changes" comment="Created procedural inputs for option 1">
+    <list default="true" id="cdd5a427-46a0-49c4-840d-96114c9a2825" name="Changes" comment="Completed procedural inputs for option 1. With loop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/InputUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/InputUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/MenuUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/MenuUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +36,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="InputUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="util.InputUtil" />
@@ -128,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666443134845</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Completed procedural inputs for option 1. With loop">
+      <created>1666456565509</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666456565509</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +155,7 @@
     <MESSAGE value="Created first InputUtil method enterInteger" />
     <MESSAGE value="Created InputUtil method enterString" />
     <MESSAGE value="Created procedural inputs for option 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created procedural inputs for option 1" />
+    <MESSAGE value="Completed procedural inputs for option 1. With loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed procedural inputs for option 1. With loop" />
   </component>
 </project>

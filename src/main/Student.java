@@ -74,7 +74,7 @@ public class Student {
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", age=" + age +
-                ", className='" + className + '\'' +
+                ", className=' " + className + '\'' +
                 ", balance=" + balance +
                 '}';
     }
